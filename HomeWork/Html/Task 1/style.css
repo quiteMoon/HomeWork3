@@ -1,0 +1,43 @@
+body {
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+
+.element {
+    border: 3px solid gray;
+    width: 250px;
+    height: 300px;
+    display: inline-block;
+    margin: 0px 30px 20px 30px;
+    border-radius: 15%;
+    background-color: aliceblue;
+}
+
+h1 {
+    font-family:monospace;
+}
+
+.container {
+    margin: 30px 10px 0px 10px;
+    height: auto;
+}
+
+.element img {
+    margin-top: 60px;
+}
+
+.element p {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+    font-family: monospace;
+    font-style:initial;
+}
+
+hr {
+    height: 2px;
+    background-color:darkgray;
+    border: none;
+    margin: 0px 180px 0px 180px;
+}

@@ -1,0 +1,66 @@
+body {
+    padding: 20px;
+    color: aliceblue;
+}
+
+.container {
+    background-color: rgba(42,79,111,255);
+    padding: 40px 30px 15px 30px;
+    text-align: center;
+    margin: 10px;
+}
+
+.link {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    padding: 0px 80px 0px 80px;
+}
+.element {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.img {
+    float: left;
+    margin-right: 25px;
+    width: 64px;
+    height: 64px;
+}
+
+.element:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#fb {
+    background: url(icons_hw_module_3/fb_gray.png);
+    display: block;
+}
+
+#inst {
+    background: url(icons_hw_module_3/insta_gray.png);
+    display: block;
+}
+
+#yout {
+    background: url(icons_hw_module_3/youtube_gray.png);
+    display: block;
+}
+
+#fb:hover {
+    background: url(icons_hw_module_3/fb.png);
+    cursor: pointer;
+}
+
+#inst:hover {
+    background: url(icons_hw_module_3/insta.png);
+    cursor: pointer;
+}
+
+#yout:hover {
+    background: url(icons_hw_module_3/youtube.png);
+    cursor: pointer;
+}

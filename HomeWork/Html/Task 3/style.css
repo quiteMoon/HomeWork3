@@ -1,0 +1,91 @@
+body {
+    height: 800px;
+    padding: 40px 20px 30px 20px;
+    font-family: monospace;
+    font-size: 20px;
+    line-height: 1.5;
+    color: rgba(243,231,218,255);
+}
+
+.container {
+    padding: 10px;
+    height: auto;
+    background-color: rgba(245,245,245,255);
+}
+
+.header {
+    width: auto;
+    background-color: rgba(146,49,88,255);
+    padding: 35px 35px 35px 55px;
+    text-align: left;
+    margin: auto auto 15px auto;
+}
+
+.menu {
+    width: auto;
+    background-color: rgba(110,18,55,255);
+    padding: 15px 15px 15px 55px;
+    text-align: left;
+    margin: auto auto 15px auto;
+}
+
+.aside {
+    width: 305px;
+    margin-right: 15px;
+    float: left;
+}
+
+.asideL1 {
+    width: 250px;
+    background-color: rgba(182,92,129,255);
+    margin: 0 0 15px 0;
+    padding: 25px 0 25px 55px;
+    text-align: left;
+}
+
+.asideL2 {
+    width: 250px;
+    background-color: rgba(182,92,129,255);
+    margin: 0 0 15px 0;
+    padding: 25px 0 95px 55px;
+    text-align: left;
+}
+
+.content {
+    margin: auto auto 15px auto;
+    display: flex;
+}
+
+.maincontent {
+    width: 1400px;
+    height: 375px;
+    margin-right: 15px;
+    background-color: rgba(182,92,129,255);
+}
+
+.maintext {
+    padding: 35px 0 10px 60px;
+}
+
+.section {
+    margin: 0 60px 15px;
+    padding: 20px 0 80px 50px;
+    background-color: rgba(219,146,174,255);
+}
+
+.asideR {
+    float: right;
+    background-color: rgba(182,92,129,255);
+    height: 230px;
+    padding: 20px 40px 10px;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+}
+
+.footer {
+    width: auto;
+    background-color: rgba(110,18,55,255);
+    padding: 15px 15px 15px 55px;
+    text-align: left;
+    margin: auto auto 15px auto;
+}

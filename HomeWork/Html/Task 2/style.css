@@ -1,0 +1,30 @@
+.container {
+    width: 250px;
+}
+
+.element img {
+    width: 75px;
+    height: 75px;
+}
+
+.element{
+    height: auto;
+    background-color:darkgrey;
+}
+
+.text {
+    display: inline-block;
+    position:absolute;
+}
+
+.element:hover{
+    cursor: pointer;
+    background-color:gray;
+}
+
+.text p {
+    margin: 29px 0px 0px 30px;
+    font-family:monospace;
+    font-style:initial;
+    font-size: 20px;
+}
